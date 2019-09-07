@@ -29,6 +29,7 @@ public class BaseTest {
 	}
 	else if (browser.equals("firefox")) {
 	driver = new FirefoxDriver ();	
+	System.out.println("check branch connection");
 		
 	}
 	else if (browser.equals("ie")) {
